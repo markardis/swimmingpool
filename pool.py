@@ -128,13 +128,13 @@ def find_volume():
 def find_filling_time(Volume):
 
 	Days = 0
-	Days = math.floor(Volume / 1200)
+	Days = math.floor(Volume / 12000)
 	print "Days =", Days
-	Rem = Volume - (Days * 1200)
-	if Rem > 800:
-		Hours = round(4 + (Rem - 800) / 400, 2)
+	Rem = Volume - (Days * 12000)
+	if Rem > 8000:
+		Hours = round(4 + (Rem - 8000) / 4000, 2)
 	else:
-		Hours = round(Rem / 800, 2)
+		Hours = round(Rem / 8000, 2)
 	print "Hours =", Hours
 	return(Days, Hours)
 	
