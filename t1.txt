@@ -1,0 +1,9 @@
+75 25 4 12 Average values
+75 25 12 4 Swapped shallow and deep
+1 1 1 1 Minimum values
+0 0 0 0 Zero values
+40 20 4 4 Flat bottom
+-1 -2 -3 -4 Negative values
+40 20 4 Missing value
+a b c d Non integers
+4 2 1 4 AngleLine should be 5
